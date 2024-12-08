@@ -1,0 +1,337 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0x;
+    font-family: 'Open Sans',sans-serif;
+    background: #F3F3E0;
+}
+
+.wrapper {
+    width: 1400px;
+    margin: auto;
+    position: relative;
+}
+
+.logo img {
+    width: 200px;
+    margin: 25px 0px;
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #133E87;
+    z-index: 1;
+    border-bottom: 1px solid #F3F3E0;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #F3F3E0;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px 0px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 0px;
+}
+
+.main .men_text h1{
+    width: 600px;
+    font-size: 50px;
+    color: #133E87; 
+    position: relative;
+    top: -30px;
+    left: 20px;
+    margin: 0px 80px 0px 80px;
+}
+
+.main .men_text h1 span{
+    width: 600px;
+    margin-left: 0px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 50px;
+    margin: 0px 10px 0px 10px;
+}
+
+.main .men_text h2{
+    width: 450px;
+    font-size: 15px;
+    font-weight:normal;
+    color: #133E87; 
+    position: relative;
+    top: -10px;
+    left: 20px;
+    margin: 0px 80px 0px 80px;
+}
+
+.main .main_image img{
+    width: 600px;
+    position: right;
+    float: right;
+    margin: 80px 90px 0px 0px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    width: 650px;
+    left: -880px;
+    top: -120px;
+}
+
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+footer{
+    width: 100%;
+    margin: 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 0px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    z-index: 1;
+
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 20px 30px 20px ;
+    top: -100px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration:solid;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 1.5em;
+    color: #133E87;
+    opacity: 1;
+    background-color: #ffffff;
+}
+
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #3f72af;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: #133E87;
+    background-color: #3f72af;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 20px 0px;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+
+h3 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 650px;
+    color: #133E87;
+    display: flex;
+    font-weight: normal;
+}
+
+.container {
+    position: center;
+    transform: traslate(-50px, -50px);
+    margin-left: 50%;
+    margin-top: 50%;
+    display: flex;
+    margin: 30px 600px 0px 600px;
+    direction: rtl;
+}
+
+.container label {
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 10px;
+}
+
+.container input {
+    height: 30px;
+    width: 10px;
+}
+
+.container label::before{
+    content: "\2605";
+    font-size: 30px;
+    color: #133E87;
+    display: inline-block;
+    position: absolute;
+}
+
+.container label::after{
+    content:"\2605";
+    color: #fac031;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+}
+
+.container input {
+    display: none;
+}
+
+.container label:hover:after,
+.containe label:hover~label.after,
+.container input:checked~label:after{
+    text-shadow: 5px 5px 10px #fac031;
+    opacity: 1;
+}
+ 
+
+.footerBottom{
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+    bottom: 0px;
+    margin: 0px;
+    border-top: 1px solid #133E87;
+}
+.footerBottom p{
+    color: #133E87;
+    display: inline;
+    float: right;
+    margin: 130px -275px 0px 0px;
+    right: 0px;
+    padding: 450;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
